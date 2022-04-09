@@ -1,9 +1,10 @@
-# Website analytics of Work our Wednesday on Tableau
+# Website analytics of Work Out Wednesday on Tableau
 
 This is a data analysis project based on the google analytics data of Work Out Wednesday which is a weeklay challenge site to re-create data visualization posted by other competitors. the dataset contains records of website traffic informaton on different dates from 2019 to 2021.
 
 **Dataset:** The dataset for the project is collected from data.world website.Linke:https://data.world/annjackson/wow-google-analytics?msclkid=e883caaeb85711ecb70515d920d34da3.  The dataset contains 10 column with 33,865 rows of records. 
-Columns are: Country,date,source/medium,bounces,exits,pageviews,session duration,sessions,time on page,unique pageviews.
+
+Columns: Country,date,source/medium,bounces,exits,pageviews,session duration,sessions,time on page,unique pageviews.
 
 To draw out findings and insights from the project some major google analytics KPIs have been analysed are-
 1.Average bounce rate, 
