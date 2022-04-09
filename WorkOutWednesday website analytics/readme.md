@@ -29,12 +29,13 @@ To draw out findings and insights from the project some major google analytics K
 
 **Total Pageviews | Average page views per session:** The idea of creating this barchart was to find total pagevies and avergae page views per session done by visitors coming from difference source and mediam. The highest number of visitors accesed the website from organically searching by google and the average page viws was really good at **2.9** pages per session. Google was followed by bing and yahoo in organic search category. 
 
-In refferal category the most pageviews were made from visitors coming from twitter but visitors from pinterest.com had a good nuber pageviews but with a low pageviews per session at **1.2.** 
+**Total Pageviews | Average page views per session**:In refferal category the most pageviews were made from visitors coming from twitter but visitors from pinterest.com alothough had a good number pageviews but the pageviews per session were very low at **1.2.** 
+
 The avergae time spent per page by visitors from pinterest was also low with only 24 seconds per page with a very high bounce rate of 84%.
 
-Overall, the visitors coming from **organic searches** had a good bounce rate of **37.69%** meaning they tend to be exploring more pages and not just goinf of after visiting first page. Visitors coming from direct search had little bit high bounce rate of **51%** followed by visitors by referral sites at 47.63%
+**Sessions|Bounce rate for different Mediums**:Overall, the visitors coming from **organic searches** had a good bounce rate of **37.69%** meaning they tend to be exploring more pages and not just goinf of after visiting first page. Visitors coming from direct search had little bit high bounce rate of **51%** followed by visitors by referral sites at 47.63%
 
-While analysis number of sessions over the years by line graph it was very interestingly visible that the website session tends to be at high in **January** over the years and tend to be going down afterwards the again rising at the end of the year. 
+**Number of Sessions over the years**: While analysing number of sessions over the years by line graph it was very interestingly visible that the website session tends to be at high in **January** over the years and tend to be going down afterwards the again rising at the end of the year. 
 
 **Major insights from the analysis:**
 
