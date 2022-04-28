@@ -3,8 +3,10 @@
 This is a data analysis project based on the google analytics data of Work Out Wednesday which is a weeklay challenge site to re-create data visualization posted by other competitors. the dataset contains records of website traffic informaton on different dates from 2019 to 2021.
 
 Dataset: Collected from data.world website.
-Link :https://data.world/annjackson/wow-google-analytics msclkid=e883caaeb85711ecb70515d920d34da3. 
+Link :https://data.world/annjackson/wow-google-analytics
+
 No. of Columns: 10
+
 Records : 33,865 
 
 Columns: Country,date,source/medium,bounces,exits,pageviews,session duration,sessions,time on page,unique pageviews.
