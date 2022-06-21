@@ -19,6 +19,8 @@ Data Analysis procedures:
 6. <img width="802" alt="Sales Lead Dashboard" src="https://user-images.githubusercontent.com/96620728/174909369-7afe1235-a26a-4e85-80d4-2fc2208885c2.png">
 
 ## Sales lead performance dashboard:
+From the dashboard dynamic filters can be used to track each team and each sales rep performance based on the states of the leads and KPis used to track the performance. Overall in the month of March the sales reps performance was at peak with highest number of leads won compared to february and January.
+
 <img width="802" alt="Sales Team Performance Dashboard" src="https://user-images.githubusercontent.com/96620728/174909599-f8c19057-3aba-4446-b147-eaac96ab7c47.png">
 
 Assumptions and recommendations for improvement on sales lead performances:
@@ -42,3 +44,4 @@ Managerial steps can be taken by
 Going in depth about  the lead lost reason and trying to improve on that or give enhanced trainning to  representatives.
 Finding out the possible lead  the reps are actually contacting or and judge if are actually a  good fit  to product or the right customer.
 
+Overall, The sales lead performance was improved in a very good extent in March.leads creation numbers were going up, lead flow number were highest, more number of leads were won than previous two months. 
