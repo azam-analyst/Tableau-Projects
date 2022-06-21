@@ -25,9 +25,10 @@ From the dashboard dynamic filters can be used to track each team and each sales
 
 Assumptions and recommendations for improvement on sales lead performances:
 
-# Sales cycle time:
+#Sales cycle time:
 The sales cycle time which referes to the timeframe between a sales lead creation and sales lead winning was highest for Sales rep 5,sales rep 2 from Team 2 of UK.
 High sales cycle time is an indication where sales reps spending too much time on individual clients or the clients are not being communicated effectively.
+
 Assuming possible reasons:.
 * Wrong target customers who might not were good fit for the product.
 * Ineffective way of product presentation in first meeting.
