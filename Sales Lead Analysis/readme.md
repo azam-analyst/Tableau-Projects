@@ -2,7 +2,7 @@
 
 This is a project done to analyse and visualize sales lead performance data of the inbound sales teams of a company whithin health tech industry. The company provides B2B trainning platform to the fitness experts/trainners to interact with their clients and provide tutorials and lesson on the same platform. The service is provided on subscription basis.
 
-# Business Problem:
+#Business Problem:
 
 The manager wants to have an indepth analysis of the performance of sales teams across four countries in Europe. There is a requirememnt of two dashboards. One with a general quarterly performance overview and another one with the visualization of sales team performance that can be use by sales teams to track their sales records. Th business problems are as following-
 
