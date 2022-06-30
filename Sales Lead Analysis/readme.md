@@ -2,7 +2,7 @@
 
 This is a project done to analyse and visualize sales lead performance data of the inbound sales teams of a company whithin health tech industry. The company provides B2B trainning platform to the fitness experts/trainners to interact with their clients and provide tutorials and lesson on the same platform. The service is provided on subscription basis.
 
-#Business Problem:
+# Business Problem:
 
 The manager wants to have an indepth analysis of the performance of sales teams across four countries in Europe. There is a requirememnt of two dashboards. One with a general quarterly performance overview and another one with the visualization of sales team performance that can be use by sales teams to track their sales records. Th business problems are as following-
 
@@ -13,7 +13,7 @@ The manager wants to have an indepth analysis of the performance of sales teams 
 3. Make assumtions whre necessary with managerial recommendations on the scope of improvement that could lead to better sales rep performance eventually more customer acquisition.
 
 
-## Monthly overview dashboard
+# Monthly overview dashboard
 Data Analysis procedures:
 1. The dataset was in xlsx format and was imported in Tableau Desktop for analysis. 
 2. Sales KPIs were  with Tableau calculated fields to mesure performance: # of leads created,# of leads won,lead flow, lead conversion rate, average sales cycle time.
@@ -21,29 +21,39 @@ Data Analysis procedures:
 4. Lead flow was the highest in UK meaning UK sales reps were in discussion with highest number of clients
 
 KPI calculation in Tableau:
+
 Number of leads created:
-In order to track the number of leads created a new caluclate field was created as following:
+
+In order to track the number of leads created a new caluclated field was created in Tableau by counting the number of 'Contacted' field on Lead state column as following:
 
 COUNT(IF [Lead State]="CONTACTED" THEN [Lead Id] END)
 
 Number of Leads won:
+The KPI was created by tableay calculated field by couting the filed 'Won' on Lead state column.
+
 COUNT(IF [Lead State]="WON" THEN [Lead Id] END)
 
 Lead conversion rate:
+
 The KPI is created to track the conversion rate which calculates the percentage of leads won compared to the percentage of leads created.
 
 Tableau field:
 [# of Leads Won]/[# of Leads Created]
 
 Avergae Sales Cycle time:
+
 The sales cycle time measures the time between lead creation and lead winning date. The more less the cycle time the more efficient are the sales team on winning leads thus creating profitability.
 
 Tableau Field:
+
 DATEDIFF('day',[Lead Creation Date],[Lead Winning Date])
 
 Lead Flow:
+
 The number of leads the sales team are working. This KPI field can be created by counting the number of 'In Dialogue' fields on Lead State column.
+
 Tableau calculated field:
+
 COUNT(IF [Lead State]="In Dialogue" THEN [Lead Id] END)
 
 # Final Dashboard:
