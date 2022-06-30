@@ -14,33 +14,33 @@ The manager wants to have an indepth analysis of the performance of sales teams 
 
 
 # Monthly overview dashboard
-Data Analysis procedures:
+#Data Analysis procedures:
 1. The dataset was in xlsx format and was imported in Tableau Desktop for analysis. 
 2. Sales KPIs were  with Tableau calculated fields to mesure performance: # of leads created,# of leads won,lead flow, lead conversion rate, average sales cycle time.
 3. Overall the the lead creation increased in a very good extent in March thus showing a upward trend in the performance of the teams. 
 4. Lead flow was the highest in UK meaning UK sales reps were in discussion with highest number of clients
 
-KPI calculation in Tableau:
+#Creating KPIs by Tableau calculated fields
 
-Number of leads created:
+#Number of leads created:
 
 In order to track the number of leads created a new caluclated field was created in Tableau by counting the number of 'Contacted' field on Lead state column as following:
 
 COUNT(IF [Lead State]="CONTACTED" THEN [Lead Id] END)
 
-Number of Leads won:
+#Number of Leads won:
 The KPI was created by tableay calculated field by couting the filed 'Won' on Lead state column.
 
 COUNT(IF [Lead State]="WON" THEN [Lead Id] END)
 
-Lead conversion rate:
+#Lead conversion rate:
 
 The KPI is created to track the conversion rate which calculates the percentage of leads won compared to the percentage of leads created.
 
 Tableau field:
 [# of Leads Won]/[# of Leads Created]
 
-Avergae Sales Cycle time:
+#Avergae Sales Cycle time:
 
 The sales cycle time measures the time between lead creation and lead winning date. The more less the cycle time the more efficient are the sales team on winning leads thus creating profitability.
 
@@ -48,7 +48,7 @@ Tableau Field:
 
 DATEDIFF('day',[Lead Creation Date],[Lead Winning Date])
 
-Lead Flow:
+#Lead Flow:
 
 The number of leads the sales team are working. This KPI field can be created by counting the number of 'In Dialogue' fields on Lead State column.
 
@@ -88,4 +88,6 @@ Managerial steps can be taken by
 Going in depth about  the lead lost reason and trying to improve on that or give enhanced trainning to  representatives.
 Finding out the possible lead  the reps are actually contacting or and judge if are actually a  good fit  to product or the right customer.
 
-Overall, The sales lead performance was improved in a very good extent in March.leads creation numbers were going up, lead flow number were highest, more number of leads were won than previous two months. 
+# Conclusion:
+
+Overall, The sales lead performance was improved in a very good extent in March.leads creation numbers were going up, lead flow number were highest, more number of leads were won than previous months. 
