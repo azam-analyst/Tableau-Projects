@@ -21,12 +21,12 @@ Data Analysis procedures:
 4. Lead flow was the highest in UK meaning UK sales reps were in discussion with highest number of clients
 
 KPI calculation in Tableau:
-# of leads created:
+Number of leads created:
 In order to track the number of leads created a new caluclate field was created as following:
 
 COUNT(IF [Lead State]="CONTACTED" THEN [Lead Id] END)
 
-# of Leads won:
+Number of Leads won:
 COUNT(IF [Lead State]="WON" THEN [Lead Id] END)
 
 Lead conversion rate:
