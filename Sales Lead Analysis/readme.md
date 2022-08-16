@@ -4,7 +4,7 @@ This is a project done to analyse and visualize sales lead performance data of t
 
 # Business Problem:
 
-The manager wants to have an indepth analysis of the performance of sales teams across four countries in Europe. There is a requirememnt of two dashboards. One with a general quarterly performance overview and another one with the visualization of sales team performance that can be use by sales teams to track their sales records. Th business problems are as following-
+The manager wants to have an in depth analysis of the performance of sales teams across four countries in Europe. There is a requirememnt of two dashboards. One with a general quarterly performance overview and another one with the visualization of sales team performance that can be use by sales teams to track their sales records. Th business problems are as following-
 
 1. Create an overview dashboard that can be used by the manager to monitor performance of the whole team during the month and report on the performance at the end of the month. Business metrices shall be aggregated to justify the performance as team from the countries they are working. Make general overview from different charts used in the dashboard. 
 
@@ -16,15 +16,15 @@ The manager wants to have an indepth analysis of the performance of sales teams 
 # Monthly overview dashboard
 #Data Analysis procedures:
 1. The dataset was in xlsx format and was imported in Tableau Desktop for analysis. 
-2. Sales KPIs were  with Tableau calculated fields to mesure performance: # of leads created,# of leads won,lead flow, lead conversion rate, average sales cycle time.
-3. Overall the the lead creation increased in a very good extent in March thus showing a upward trend in the performance of the teams. 
+2. Sales KPIs were  with Tableau calculated fields to measure performance: # of leads created,# of leads won,lead flow, lead conversion rate, average sales cycle time.
+3. Overall the the lead creation increased in a very good extent in March thus showing an upward trend in the performance of the teams. 
 4. Lead flow was the highest in UK meaning UK sales reps were in discussion with highest number of clients
 
 #Creating KPIs by Tableau calculated fields
 
 #Number of leads created:
 
-In order to track the number of leads created a new caluclated field was created in Tableau by counting the number of 'Contacted' field on Lead state column as following:
+In order to track the number of leads created, a new caluclated field was created in Tableau by counting the number of 'Contacted' field on Lead state column as following:
 
 COUNT(IF [Lead State]="CONTACTED" THEN [Lead Id] END)
 
@@ -40,7 +40,7 @@ The KPI is created to track the conversion rate which calculates the percentage 
 Tableau field:
 [# of Leads Won]/[# of Leads Created]
 
-#Avergae Sales Cycle time:
+#Average Sales Cycle time:
 
 The sales cycle time measures the time between lead creation and lead winning date. The more less the cycle time the more efficient are the sales team on winning leads thus creating profitability.
 
